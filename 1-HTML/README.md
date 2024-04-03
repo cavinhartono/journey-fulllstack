@@ -29,44 +29,44 @@ B. `<Body>`: Tubuh dari HTML yang berfungsi sebagai menentukan isi yang ditampil
 1.  Heading dan Paragraph <br>
     Heading digunakan untuk judul atau subjudul dari suatu dokumen HTML dan Paragraph untuk membuat paragraf atau suatu kalimat.
 
-            Contoh untuk membuat Heading:
+    Contoh untuk membuat Heading:
 
-                ```HTML
-                  <body>
-                    <h1>Hello, World</h1>
-                    <h2>Hello, World</h2>
-                    <h3>Hello, World</h3>
-                    <h4>Hello, World</h4>
-                    <h5>Hello, World</h5>
-                    <h6>Hello, World</h6>
-                  </body>
-                ```
+    ```HTML
+    <body>
+      <h1>Hello, World</h1>
+      <h2>Hello, World</h2>
+      <h3>Hello, World</h3>
+      <h4>Hello, World</h4>
+      <h5>Hello, World</h5>
+      <h6>Hello, World</h6>
+    </body>
+    ```
 
-            Output pada Heading:
+    Output pada Heading:
 
-            <h1>Hello, World</h1>
-            <h2>Hello, World</h2>
-            <h3>Hello, World</h3>
-            <h4>Hello, World</h4>
-            <h5>Hello, World</h5>
-            <h6>Hello, World</h6>
+    <h1>Hello, World</h1>
+    <h2>Hello, World</h2>
+    <h3>Hello, World</h3>
+    <h4>Hello, World</h4>
+    <h5>Hello, World</h5>
+    <h6>Hello, World</h6>
 
-        ```html
-        <body>
-          <p>
-            Demikian pula, tidak adakah orang yang mencintai atau mengejar atau
-            ingin mengalami penderitaan, bukan semata-mata karena penderitaan itu
-            sendiri, tetapi karena sesekali terjadi keadaan di mana susah-payah dan
-            penderitaan dapat memberikan kepadanya kesenangan yang besar.
-          </p>
-        </body>
-        ```html
+    ```html
+    <body>
+      <p>
+        Demikian pula, tidak adakah orang yang mencintai atau mengejar atau
+        ingin mengalami penderitaan, bukan semata-mata karena penderitaan itu
+        sendiri, tetapi karena sesekali terjadi keadaan di mana susah-payah dan
+        penderitaan dapat memberikan kepadanya kesenangan yang besar.
+      </p>
+    </body>
+    ```
 
     Output:
 
-<p>
-Demikian pula, tidak adakah orang yang mencintai atau mengejar atau ingin mengalami penderitaan, bukan semata-mata karena penderitaan itu sendiri, tetapi karena sesekali terjadi keadaan di mana susah-payah dan penderitaan dapat memberikan kepadanya kesenangan yang besar.
-</p>
+    <p>
+    Demikian pula, tidak adakah orang yang mencintai atau mengejar atau ingin mengalami penderitaan, bukan semata-mata karena penderitaan itu sendiri, tetapi karena sesekali terjadi keadaan di mana susah-payah dan penderitaan dapat memberikan kepadanya kesenangan yang besar.
+    </p>
 
 2.  Grouping Element
     `<div>` dan `<span>` digunakan untuk mengelompokkan elemen-elemen HTML. `<span>` bersifat inline, sedangkan `<div>` bersifat block pada konten HTML.
