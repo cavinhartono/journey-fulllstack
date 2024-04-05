@@ -68,11 +68,155 @@ B. `<Body>`: Tubuh dari HTML yang berfungsi sebagai menentukan isi yang ditampil
     Demikian pula, tidak adakah orang yang mencintai atau mengejar atau ingin mengalami penderitaan, bukan semata-mata karena penderitaan itu sendiri, tetapi karena sesekali terjadi keadaan di mana susah-payah dan penderitaan dapat memberikan kepadanya kesenangan yang besar.
     </p>
 
+    Format Karakter:
+
+    A. Logical format
+
+    `<cite>`: Menandai suatu kutipan
+
+    `<code>`: Menampilkan source code
+
+    `<em>`: Menandai suatu teks yang ditekankan oleh penulis
+
+    `<samp>`: Menandai suatu teks yang dimaksudkan sebagai contoh
+
+    `<strong>`: Menandai bagian yang terpenting dari suatu teks
+
+    `<dfn>`: Menandai sebuah subdefinisi dari daftar definisi
+
+    B. Physical format
+
+    `<b>` : Menampilkan huruf tebal
+
+    `<i>` : Menampilkan huruf miring
+
+    `<u>` : Menampilkan garis bawah pada teks
+
+    `<tt>` : Menampilkan huruf mesin ketik
+
+    `<strike>` : Menampilkan garis horisontal pada bagian tengah huruf
+
+    `<big>` : Menampilkan ukuran huruf yang lebih besar
+
+    `<small>` : Menampilkan ukuran huruf yang lebih kecil
+
+    `<sub>` : Menampilkan subscript
+
+    `<sup>` : Menampilkan superscript
+
 2.  Grouping Element
     `<div>` dan `<span>` digunakan untuk mengelompokkan elemen-elemen HTML. `<span>` bersifat inline, sedangkan `<div>` bersifat block pada konten HTML.
 
-3.
+3.  List
+    List Item digunakan untuk membuat daftar atau mengelompokkan kata, ada 2 macam list yaitu Ordered dan Unordered List.
 
-```
+    A. Ordered List (Numbering)
 
-```
+    ```html
+    <!-- type="a|A|1|i|I" -->
+    <ol type="a">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ol>
+    ```
+
+    Output:
+    <ol type="A">
+      <li>Apa itu HTML?</li>
+      <li>Bagaimana Sejarah HTML?</li>
+      <li>Dasar Tag pada HTML</li>
+    </ol>
+
+    B. Unordered List (Bullet)
+
+    ```html
+    <h1>Dasar Tag pada HTML</h1>
+    <ul>
+      <li>Heading and Paragraph</li>
+      <li>Grouping Element</li>
+      <li>List Item</li>
+    </ul>
+    ```
+
+    Output:
+
+    <h1>Dasar Tag pada HTML</h1>
+    <!-- type="disc|square|circle" dan defaultnya adalah disc -->
+    <ul type="square">
+      <li>Heading and Paragraph</li>
+      <li>Grouping Element</li>
+      <li>List Item</li>
+    </ul>
+
+4.  Hyperlink
+    `<a>` digunakan untuk membuat link website yang berbeda atau dokumen html
+
+    ```html
+    <!-- Link website -->
+    <a href="https://www.facebook.com">Facebook</a>
+    <!-- Link antar dokumen HTML -->
+    <a href="Login.html">Login</a>
+    ```
+
+5.  Table
+    `<table>` digunakan untuk menampilkan informasi dengan berbentuk yang mudah dibaca.
+    Tag table bagian penting, yaitu:
+
+    `<caption>` : Membentuk judul tabel
+
+    `<th>` : Meletakkan judul tabel di bagian paling atas dan kiri dari suatu tabel. Tabel header akan dicetak dalam huruf tebal.
+
+    `<tr>` : Membentuk baris pada suatu tabel
+
+    `<td>` : Sebagai tempat menulis data atau informasi dalam tabel
+
+    > Source Code untuk membuat table
+
+    ```html
+    <table>
+      <caption>
+        Judul Tabel
+      </caption>
+      <thead>
+        <tr>
+          <th>Baris</th>
+          <th>Kolom</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Baris 1 dan Kolom 1</td>
+          <td>Baris 1 dan Kolom 2</td>
+        </tr>
+        <tr>
+          <td>Baris 2 dan Kolom 1</td>
+          <td>Baris 2 dan Kolom 2</td>
+        </tr>
+      </tbody>
+    </table>
+    ```
+
+    > Output:
+
+    <table>
+      <caption>
+        Judul Tabel
+      </caption>
+      <thead>
+        <tr>
+          <th>Baris</th>
+          <th>Kolom</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Baris 1 dan Kolom 1</td>
+          <td>Baris 1 dan Kolom 2</td>
+        </tr>
+        <tr>
+          <td>Baris 2 dan Kolom 1</td>
+          <td>Baris 2 dan Kolom 2</td>
+        </tr>
+      </tbody>
+    </table>
