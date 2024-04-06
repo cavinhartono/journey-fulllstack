@@ -171,7 +171,7 @@ B. `<Body>`: Tubuh dari HTML yang berfungsi sebagai menentukan isi yang ditampil
 
     `<td>` : Sebagai tempat menulis data atau informasi dalam tabel
 
-    > Source Code untuk membuat table
+    Source Code untuk membuat table
 
     ```html
     <table>
@@ -220,3 +220,13 @@ B. `<Body>`: Tubuh dari HTML yang berfungsi sebagai menentukan isi yang ditampil
         </tr>
       </tbody>
     </table>
+
+6.  Audio, Image and Video
+
+    Source code untuk menampilkan gambar:
+
+    ```html
+    <img src="" />
+    ```
+
+    Output:
