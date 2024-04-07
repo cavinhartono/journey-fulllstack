@@ -226,7 +226,8 @@ B. `<Body>`: Tubuh dari HTML yang berfungsi sebagai menentukan isi yang ditampil
     Source code untuk menampilkan gambar:
 
     ```html
-    <img src="" />
+    <img src="link" alt="jika ingin menggunakan internet" />
+    <img src="namaFolder/namafile.jpg|png|webp" alt="local" />
     ```
 
     Output:
