@@ -231,3 +231,101 @@ B. `<Body>`: Tubuh dari HTML yang berfungsi sebagai menentukan isi yang ditampil
     ```
 
     Output:
+
+7.  Semantic HTML
+    Semantic HTML adalah mengelompokkan suatu element HTML dengan lebih jelas dan memiliki arti. Beberapa element berperilaku seperti konten kepala, pokok, samping, dan kaki.
+
+    `<header>`: Pembuka konten dalam sebuah element, biasanya `<header>` bisa digunakan menampilkan navigasi utama.
+
+    Source code untuk membuat navigasi utama:
+
+    ```html
+    <header>
+      <h1>Github</h1>
+      <ul>
+        <li>
+          <a>Home</a>
+        </li>
+        <li>
+          <a>About</a>
+        </li>
+        <li>
+          <a>Contacts</a>
+        </li>
+      </ul>
+    </header>
+    ```
+
+    `<footer>`: Catatan kaki pada sebuah element, biasanya `<footer>` dijadikan sebuah informasi hak cipta.
+
+    Source code untuk menampilkan informasi hak cipta:
+
+    ```html
+    <footer>
+      <h5>&copy; Copyright 2024 by Github</h5>
+    </footer>
+    ```
+
+    `<section>`: Sebuah elemen yang memiliki kesamaan konten dan sebuah heading di dalamnya dapat dikelompokkan dengan menggunakan elemen tersebut.
+
+    Selain itu, bisa digunakan pada element `<header>` dan `<footer>` untuk element `<section>`. `<header>` digunakan untuk menampung judul dan penulis dan `<footer>` digunakan untuk menampung link untuk membagikan artikel di sosial media. Tetapi juga tidak boleh ditulis bertumpuk atau nested.
+
+    Source code untuk membuat artikel:
+
+    ```html
+    <section>
+      <header>
+        <h1>Judul Artikel</h1>
+        <h2>Oleh: Media Internet</h2>
+      </header>
+      <p>
+        <!-- Sebuah paragraf -->
+      </p>
+      <footer>
+        <p>Bagikan artikel ini melalui</p>
+        <ul>
+          <li>
+            <a>Twitter</a>
+          </li>
+          <li>
+            <a>Facebook</a>
+          </li>
+          <li>
+            <a>Instagram</a>
+          </li>
+        </ul>
+      </footer>
+    </section>
+    ```
+
+    `<nav>`: Sebuah elemen untuk menampung sebuah navigasi yang sifatnya penting, contohnya navigasi utama pada sebuah website
+
+    Source code untuk menampilkan navigasi utama:
+
+    ```html
+    <nav>
+      <ul>
+        <li><a href="#sejarah">Sejarah</a></li>
+        <li><a href="#geografis">Geografis</a></li>
+        <li><a href="#wisata">Wisata</a></li>
+      </ul>
+    </nav>
+    ```
+
+    `<main>`: Sebuah element untuk menampung/mewadahi konten utama yang dominan dalam `<body>`. Konten `<main>` terdapat dari section, atau konten apa pun di dalam elemen `<main>`, selama ia termasuk konten utama yang dimiliki oleh website.
+
+    Source code untuk struktur:
+
+    ```html
+    <body>
+      <header>
+        <!-- Konten pembuka -->
+      </header>
+      <main>
+        <!-- Konten utama -->
+      </main>
+      <footer>
+        <!-- Konten catatan kaki -->
+      </footer>
+    </body>
+    ```
