@@ -329,3 +329,35 @@ B. `<Body>`: Tubuh dari HTML yang berfungsi sebagai menentukan isi yang ditampil
       </footer>
     </body>
     ```
+
+8.  Iframe
+    Iframe adalah
+
+    Source code untuk menampilkan profil Github dengan Iframe:
+
+    ```html
+    <iframe></iframe>
+    ```
+
+    Output:
+    <iframe></iframe>
+
+9.  Forms and Input Control Elements
+
+    Source code untuk membuat halaman login:
+
+    ```html
+    <form>
+      <input type="text" placeholder="Username" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="Lanjut" />
+    </form>
+    ```
+
+10. Classes and IDs
+
+11. Label
+
+12. File Media
+
+Final Projects: Struktur
