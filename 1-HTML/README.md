@@ -222,12 +222,13 @@ B. `<Body>`: Tubuh dari HTML yang berfungsi sebagai menentukan isi yang ditampil
     </table>
 
 6.  Audio, Image and Video
+    Setiap tag HTML memiliki satu atau lebih atribut, atribut ini untuk menyimpan informasi tersebut.
 
     Source code untuk menampilkan gambar:
 
     ```html
     <img src="link" alt="jika ingin menggunakan internet" />
-    <img src="namaFolder/namafile.jpg|png|webp" alt="local" />
+    <img src="namaFolder/namafile.jpg|png|webp" alt="Local" />
     ```
 
     Output:
