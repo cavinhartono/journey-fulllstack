@@ -232,6 +232,7 @@ B. `<Body>`: Tubuh dari HTML yang berfungsi sebagai menentukan isi yang ditampil
     ```
 
     Output:
+    <iframe src="./projects/images.html" frameborder="0"></iframe>
 
 7.  Semantic HTML
     Semantic HTML adalah mengelompokkan suatu element HTML dengan lebih jelas dan memiliki arti. Beberapa element berperilaku seperti konten kepala, pokok, samping, dan kaki.
@@ -340,10 +341,32 @@ B. `<Body>`: Tubuh dari HTML yang berfungsi sebagai menentukan isi yang ditampil
     <iframe></iframe>
     ```
 
-    Output:
-    <iframe></iframe>
-
 9.  Forms and Input Control Elements
+
+    `<select>`: Element tersebut digunakan untuk membuat dropdown list dan juga digunakan pada sebuah form untuk mengumpulkan input dari pengguna.
+
+    Source code untuk membuat dropdown list dengan 4 pilihan:
+
+    ```html
+    <p>Negara:</p>
+    <select name="world">
+      <option value="indonesia">Indonesia</option>
+      <option value="malaysia">Malaysia</option>
+      <option value="england">Inggris</option>
+      <option value="italy">Italia</option>
+    </select>
+    ```
+
+    `<textarea>`: Element digunakan untuk mewakili kontrol pengeditan teks multi-baris. Biasanya digunakan untuk membuat berita atau deskripsi.
+
+    Source code untuk membuat input deskripsi:
+
+    ```html
+    <p>Jelaskan tentang pribadi Anda:</p>
+    <textarea name="about"></textarea>
+    ```
+
+    `<input>`: Memiliki atribut seperti text, radio, checkbox dan lain-lain.
 
     Source code untuk membuat halaman login:
 
@@ -356,9 +379,27 @@ B. `<Body>`: Tubuh dari HTML yang berfungsi sebagai menentukan isi yang ditampil
     ```
 
 10. Classes and IDs
+    HTML Classes dan IDs merupakan panggilan untuk melakukan pengelompokan. Untuk melakukan sebuah element harus diletakkan diberikan sebuah property yaitu `class=""` digunakan untuk CSS atau `id=""` digunakan untuk JavaScript dan hanya satu dalam suatu halaman, tidak boleh sama dengan element lain.
+
+    Source code untuk penggunaan tag `<div>` dan property `class`:
+
+    ```html
+    <div class="box" id="active">
+      <h1>Hello, World</h1>
+    </div>
+    ```
 
 11. Label
+    Label digunakan untuk mendefinsikan label untuk beberapa element lainnya, seperti `<input>`, `<textarea>` dan `select`. Label dapat ditekan untuk fokus pada element yang ditunjuk. Penggunaan element untuk meningkatkan aksesibilltas situs web. Jika element label digunakan dengan benar, maka pengguna akan mendapatkan informasi yang lebih baik tentang element yang ditunjuk.
 
-12. File Media
+    Source code untuk penggunaan label pada `<input>`:
+
+    ```html
+    <label for="email">Email:</label>
+    <input id="email" />
+    <label for="password">Password:</label>
+    <input id="password" />
+    <!-- Penggunaan attribute `for` = `id` yang akan menghubungkan element -->
+    ```
 
 Final Projects: Struktur
