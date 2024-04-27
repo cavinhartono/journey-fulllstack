@@ -366,7 +366,52 @@ B. `<Body>`: Tubuh dari HTML yang berfungsi sebagai menentukan isi yang ditampil
     <textarea name="about"></textarea>
     ```
 
-    `<input>`: Memiliki atribut seperti text, radio, checkbox dan lain-lain.
+    `<input>`: Element yang penting dari form HTML. Atribut `type` dari elemen input dapat berupa yang mendefinsikan informasi masing-masing.
+
+    Semua tipe `<input>` pada HTML:
+
+    <table>
+      <thead>
+        <tr>
+          <th>Type</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>text</td>
+          <td>Teks satu baris</td>
+        </tr>
+        <tr>
+          <td>number</td>
+          <td>Memasukan angka</td>
+        </tr>
+        <tr>
+          <td>tel</td>
+          <td>Memasukan nomor telepon</td>
+        </tr>
+        <tr>
+          <td>email</td>
+          <td>Memasukan alamat email</td>
+        </tr>
+        <tr>
+          <td>password</td>
+          <td>Password satu baris</td>
+        </tr>
+        <tr>
+          <td>radio</td>
+          <td>Memilih satu opsi</td>
+        </tr>
+        <tr>
+          <td>checkbox</td>
+          <td>Memilih beberapa opsi yang lebih dari satu</td>
+        </tr>
+        <tr>
+          <td>file</td>
+          <td>Memilih file dari penyimpanan perangkat</td>
+        </tr>
+      </tbody>
+    </table>
 
     Source code untuk membuat halaman login:
 
